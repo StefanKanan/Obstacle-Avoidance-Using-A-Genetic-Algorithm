@@ -4,7 +4,7 @@ There are 12 robots in total, spread over 3 obstacle courses. At the beginning o
 
 ![equation](https://latex.codecogs.com/png.latex?f%20%3D%20%5Cfrac%7Bdistance%7D%7B1%20&plus;%20collisions*penalty%7D)
 
-The displacement/distance value is taken every 0.2 distance units. The best few robots' genomes are kept for the next generation but the rest of them are paired and modified<sup>2</sup> (crossover, mutation). Each generation/epoch lasts for 10 minutes.
+The displacement/distance value is updated every 0.2 distance units. The best few robots' genomes are kept for the next generation but the rest of them are paired and modified<sup>2</sup> (crossover, mutation). Each generation/epoch lasts for 10 minutes.
 
 The 'Script' folder contains<sup>3</sup>:
   1. The main script which is responsible for starting and ending each epoch, calculating the fitness of every robot and generating the new genomes
