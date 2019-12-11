@@ -11,6 +11,8 @@ The 'Script' folder contains<sup>3</sup>:
   2. The robot script which each robot possesses, counts collisions, distance and moves the robot using the gene values
   3. The robot script for testing the best performing genome
 
+This algorithm was developed as an assigment during an undergrad Robotics course.
+
 <hr>
 
 <sup>1</sup> The formula is derived in part from https://doi.org/10.1016/j.procs.2016.05.404
