@@ -14,5 +14,7 @@ The 'Script' folder contains<sup>3</sup>:
 <hr>
 
 <sup>1</sup> The formula is derived in part from https://doi.org/10.1016/j.procs.2016.05.404
+
 <sup>2</sup> The position at which the two genomes are seamed is chosen at random, its values are chosen using a formula from  https://laboratoriomatematicas.uniandes.edu.co/metodos/contenido/contenido/s5a.pdf. 20% of the population of genomes are point mutated (only a single value -for both wheels- in the genome is mutated)
+
 <sup>3</sup> The Script folder is put here for convienience only, the actual scripts are in the CoppeliaSim files
