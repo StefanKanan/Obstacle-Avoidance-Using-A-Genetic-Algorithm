@@ -1,6 +1,7 @@
 # Obstacle Avoidance Using A Genetic Algorithm (Requires CoppeliaSim for the simulations)
 Robots that learn how to avoid obstacles using a genetic algorithm.
 There are 12 robots in total, spread over 3 obstacle courses. At the beginning of the simulation each robot gets a genome generated at random, the values of which drive the robot wheels. In each generation the robots calculate how many times they've colided with an obstacle and compare that with the distance the robot has travelled using the formula<sup>1</sup>:
+
 ![equation](https://latex.codecogs.com/png.latex?f%20%3D%20%5Cfrac%7Bdistance%7D%7B1%20&plus;%20collisions*penalty%7D)
 
 The displacement/distance value is taken every 0.2 distance units. The best few robots' genomes are kept for the next generation but the rest of them are paired and modified<sup>2</sup> (crossover, mutation). Each generation/epoch lasts for 10 minutes.
